@@ -35,7 +35,7 @@ namespace DoAnChoThueVanPhong
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
-        {
+        {//bắt lỗi khi đăng nhập sai thông tin
             try
             {
                 if (txtUser.Text.Count() == 0 || txtPass.Text.Count() == 0)
