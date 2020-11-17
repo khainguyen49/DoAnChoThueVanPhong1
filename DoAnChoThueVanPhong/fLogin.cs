@@ -69,6 +69,7 @@ namespace DoAnChoThueVanPhong
 
         private void ptEye_MouseDown(object sender, MouseEventArgs e)
         {
+            // doi trang thai textbox pass
             txtPass.PasswordChar = '\0';
         }
 
